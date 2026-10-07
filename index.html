@@ -1,12 +1,141 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Emprendimiento</title>
+    <title>Aire Acondicionado Automotriz | Expertos en Climatización</title>
     <link rel="stylesheet" href="style.css">
+    <!-- Iconos de Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Fuente moderna de Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <!-- Botón flotante de WhatsApp -->
+    <a href="https://wa.me/51994147159" class="whatsapp-float" target="_blank" aria-label="Contáctanos por WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Navegación -->
+    <header class="header">
+        <div class="container nav-bar">
+            <a href="#" class="logo">
+                <i class="fas fa-snowflake"></i> AireAutomotriz
+            </a>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sección Principal (Hero) -->
+    <section id="inicio" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1>Climatización Perfecta para tu Vehículo</h1>
+            <p>Especialistas en instalación, mantenimiento y reparación de sistemas de aire acondicionado automotriz. Viaja fresco, viaja seguro, viaja con nosotros.</p>
+            <a href="#contacto" class="btn btn-primary">Solicitar Revisión</a>
+        </div>
+    </section>
+
+    <!-- Sección de Servicios con Tarjetas Giratorias -->
+    <section id="servicios" class="services section-padding">
+        <div class="container">
+            <h2 class="section-title">Nuestros Servicios</h2>
+            <div class="grid-services">
+                
+                <!-- Tarjeta 1: Mantenimiento -->
+                <div class="card">
+                    <div class="card-inner">
+                        <!-- Frente de la tarjeta -->
+                        <div class="card-front">
+                            <i class="fas fa-tools icon"></i>
+                            <h3>Mantenimiento Preventivo</h3>
+                            <p>Limpieza de filtros, revisión de ductos y verificación de la presión para evitar fallas a futuro y malos olores.</p>
+                            <span class="btn-detalles">Ver detalles <i class="fas fa-undo"></i></span>
+                        </div>
+                        <!-- Reverso de la tarjeta (Detalle Oculto) -->
+                        <div class="card-back bg-mantenimiento">
+                            <div class="back-overlay"></div>
+                            <div class="back-content">
+                                <h3>Detalle del Trabajo</h3>
+                                <p>Desmontaje minucioso del tablero, desinfección profunda del evaporador con agentes antibacterianos, cambio del filtro de habitáculo y escaneo electrónico del flujo de aire para garantizar purificación al 100%.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tarjeta 2: Recarga de Gas -->
+                <div class="card">
+                    <div class="card-inner">
+                        <!-- Frente de la tarjeta -->
+                        <div class="card-front">
+                            <i class="fas fa-gas-pump icon"></i>
+                            <h3>Recarga de Gas</h3>
+                            <p>Detección de fugas mediante tecnología UV y recarga con gas ecológico de alta calidad para un enfriamiento óptimo.</p>
+                            <span class="btn-detalles">Ver detalles <i class="fas fa-undo"></i></span>
+                        </div>
+                        <!-- Reverso de la tarjeta (Detalle Oculto) -->
+                        <div class="card-back bg-recarga">
+                            <div class="back-overlay"></div>
+                            <div class="back-content">
+                                <h3>Detalle del Trabajo</h3>
+                                <p>Inyección de tinte fluorescente para rastrear micro-fugas bajo luz ultravioleta. Realizamos vacío completo del sistema para extraer humedad y finalizamos inyectando gas refrigerante ecológico exacto por balanza digital.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tarjeta 3: Compresores -->
+                <div class="card">
+                    <div class="card-inner">
+                        <!-- Frente de la tarjeta -->
+                        <div class="card-front">
+                            <i class="fas fa-cogs icon"></i>
+                            <h3>Reparación de Compresores</h3>
+                            <p>Diagnóstico experto y reparación o reemplazo de componentes mecánicos y eléctricos del sistema de climatización.</p>
+                            <span class="btn-detalles">Ver detalles <i class="fas fa-undo"></i></span>
+                        </div>
+                        <!-- Reverso de la tarjeta (Detalle Oculto) -->
+                        <div class="card-back bg-compresor">
+                            <div class="back-overlay"></div>
+                            <div class="back-content">
+                                <h3>Detalle del Trabajo</h3>
+                                <p>Desensamble total del compresor. Inspección y reemplazo de poleas, rodamientos, bobinas y válvulas de control. Lavado a presión de los conductos internos y lubricación con aceite sintético especializado antes de la reinstalación.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer y Contacto -->
+    <footer id="contacto" class="footer">
+        <div class="container footer-content">
+            <div class="footer-info">
+                <h3>Aire Acondicionado Automotriz</h3>
+                <p>Tu comodidad en la ruta es nuestra mayor prioridad.</p>
+                <div class="contact-methods">
+                    <a href="https://wa.me/51123456789" class="btn-whatsapp-footer" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Escríbenos al +51 123 456 789
+                    </a>
+                </div>
+            </div>
+            
+            <div class="footer-motivation">
+                <p class="quote">"El motor de tu vehículo te lleva a tu destino, pero la pasión por lo que hacemos hace que disfrutes el viaje. Atrévete a avanzar sin que el calor te detenga."</p>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2026 Aire Acondicionado Automotriz. Todos los derechos reservados.</p>
+        </div>
+    </footer>
 </body>
 </html>
